@@ -98,6 +98,7 @@ h3,
 h4,
 h5 {
   padding: 10px 5%;
+
 }
 
 .date-text {
@@ -276,6 +277,7 @@ span {
 }
 
 @media screen and (min-width: 768px) {
+
   .container0 {
     display: flex;
   }
