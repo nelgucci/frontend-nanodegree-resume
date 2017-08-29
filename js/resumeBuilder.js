@@ -42,7 +42,7 @@ bio.display = function() {
 
 	 if (bio.skills.length > 0) {
 	 	$("#header").append(HTMLskillsStart);
-	 	for (s = 0; s < bio.skills.length; s++) {
+	 	for (var s = 0; s < bio.skills.length; s++) {
                 var formattedSkills = HTMLskills.replace("%data%", bio.skills[s]);
                 $("#skills").append(formattedSkills);
             }
